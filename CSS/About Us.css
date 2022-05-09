@@ -92,19 +92,6 @@ body{
     text-align: center;
 }
 
-/* .button{
-    border:1px solid #ffffff;
-    background: none;
-    padding: 10px 20px;
-    font-family: "montserrat";
-    cursor: pointer;
-    margin:10px;
-    transition:0.8s;
-    position: relative;
-    overflow: hidden;
-    border-radius: 32.432432432432435px;
-    } */
-    
     .button{
         background: #ff4120;
         color: rgb(255, 246, 235);
@@ -178,7 +165,6 @@ header .logo{
     max-width: 500px;
     max-height: 1000vh;
     position: absolute;
-    margin: auto;
     left: 8cm;
   }
   .dot {
