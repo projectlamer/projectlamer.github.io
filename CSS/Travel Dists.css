@@ -1,0 +1,220 @@
+ img{
+            height: 20rem;
+            width: 20%;
+            object-fit: cover;
+            display: flex;
+            
+    }
+    .content{
+        padding:2rem;
+        text-align: center;
+    }
+    h3{
+            font-size: 2rem;
+            color:white;
+        }
+
+        p{
+            padding:1rem 0;
+            font-size: 1.4rem;
+            color:light-color;
+            line-height: 2;
+        }
+
+        a{
+            font-size: 1.9rem;
+            color:rgb(245, 72, 4);
+            text-decoration: none;
+            font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+        }
+        a:hover{
+            color: rgb(255, 174, 0);
+        }
+            a:hover i{
+                padding-left: 1rem;
+                
+            }
+
+            i{
+                padding-right: .5rem;
+            }
+
+            .heading1 {
+                font-size: 60px;
+                color: rgb(255, 115, 0);
+                margin-top: 50px;
+              }
+              
+              .heading1 span {
+                font-style: italic;
+                font-size: 30px;
+                margin-top: 50px;
+              }
+              .heading{
+                text-align: center;
+                margin-bottom: 2rem;
+                font-size: 19px;
+                text-transform: uppercase;
+                font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+                color: rgb(255, 196, 118);
+              }
+              .heading:hover{
+                text-align: center;
+                margin-bottom: 2rem;
+                font-size: 19px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                background: -webkit-linear-gradient(left, rgb(255, 145, 0) ,  rgb(255, 196, 118));
+                background: -o-linear-gradient(right,  rgb(255, 94, 0) ,  rgb(255, 196, 118));
+                background: -moz-linear-gradient(right,  rgb(255, 94, 0) ,  rgb(255, 196, 118));
+                background: linear-gradient(to right,  rgb(255, 94, 0) ,  rgb(255, 196, 118)); 
+               -webkit-background-clip: text;
+               -webkit-text-fill-color: transparent;
+              }
+              .content{
+                padding:2rem;
+              }
+                #link{
+                    font-size: 2rem;
+                    color:rgb(255, 174, 0);
+                }
+                #link:hover{
+                        color:rgb(245, 72, 4);
+                    }
+                    #container {
+                        text-align: center;
+                        display: block;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        
+                      }
+                    
+                      
+                     #text h2 {
+                        display: inline-block;
+                        margin: 0 20px 0 20px;
+                        
+                      }
+
+                      ::-webkit-scrollbar
+                      {
+                          display: none;
+                      }
+                
+                      .ro1{
+
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                      }
+                      .ro2{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                      }
+                      .profiles {
+                        margin: 20px 0;
+                        justify-content: space-around;
+                        margin: 1px 1px 1px 1px;
+                        width: 100%;
+                      }
+                    
+                      .profile p {
+                        margin: 20px 10px 80px 10px;
+                      }
+                      .profile {
+                        flex-basis: 350px;
+                        justify-content: space-around;
+                        
+                      }
+                      
+                      .profile .profile-img {
+                        width: 100%;
+                        border-radius: 20%;
+                        filter: grayscale(0%);
+                        cursor: pointer;
+                        transition: 400ms;
+                        transition: transform 0.5s;
+                      }
+                      
+                      .profile:hover .profile-img {
+                        filter: grayscale(0);
+                        transform: scaleY(1.05);
+                       
+                      }
+                      .user-name {
+                        margin-top: 30px;
+                        font-size: 35px;
+                        color: orangered;
+                        text-align: center;
+                      }
+                                            
+                      .ubar {
+                        position: absolute;
+                        top: 0;
+                        background: rgba(255, 255, 255, 0);
+                        color: rgb(255, 115, 0);
+                        width: 100%;
+                        padding: 20px;
+                        height: 7vh;
+                        font-size: 26px;
+                        text-decoration: none;
+                      }
+
+ 
+                      #a1:hover{
+                        color: rgb(255, 170, 43);
+                      }
+                      #a2:hover{
+                        color: rgb(255, 170, 43);
+                      }
+                      #a3:hover{
+                        color: rgb(255, 170, 43);
+                      }
+                      #a4:hover{
+                        color: rgb(255, 170, 43);
+                      }
+
+
+                      .navbar{
+                        display: block;
+                        text-decoration: none;
+                        float: right;
+                      }
+                      header a, a:hover, a:focus, a:active {
+                        text-decoration: none;
+                        color: inherit;
+                        justify-content: flex-end;
+                        display:inline-block;
+                        margin-right:3rem;
+                    }
+                    header .logo{
+                        font-size: 2.1rem;
+                        font-weight: bolder;
+                        color:rgb(255, 115, 0);
+                        text-transform: uppercase;
+                        text-align: center;
+                        top: 0;
+                      }
+                      header .logo span{
+                        color:var(--orange);
+                      }
+                      #menu-bar{
+                        color:#fff;
+                        border:.1rem solid #fff;
+                        border-radius: .5rem;
+                        font-size: 3rem;
+                        padding:.5rem 1.2rem;
+                        cursor: pointer;
+                        display: none;
+                      }
+                      .containerlogo{
+                        width:100%;
+                        height: 100vh;
+                        background-color: transparent;
+                        }
+                        h1{
+                          color: rgb(255, 115, 0);
+                          font-size:32px;
+                          } 

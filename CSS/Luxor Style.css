@@ -1,0 +1,129 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+.begin{
+background-image:url("../Images/res2.jpg");
+background-size: cover;
+height: 500px;
+}
+#wel{
+text-align: center;
+color: azure;
+}
+.monument{
+    background-color: rgb(236, 145, 40); 
+    background-image: linear-gradient(to right,rgb(1, 1, 1), rgb(0, 0, 0));
+    height: 4500px;
+}
+.hotel{
+    background-color: rgb(38, 46, 53); 
+    background-image: linear-gradient(to right,rgb(37, 44, 61), rgb(43, 70, 88));
+}
+.restuarant{
+    background-color: rgb(214, 133, 103); 
+    background-image: linear-gradient(to right,rgb(76, 57, 53), rgb(64, 54, 51));
+}
+.details{
+  background-color: black;
+}
+
+.pad{
+    padding: 0 25px;
+}
+.special{
+    padding: 0 100px;
+}
+.menu{
+    display: inline-block;
+}
+.special{
+    position: relative;
+    left: 170px;
+    top: -450;
+}
+.font{
+    font-size: 40px ;
+}
+.c{
+text-align :center;
+color: #f1f1f1;
+font-size: 14px;
+}
+.f{
+    padding:0 60px;
+    font-size: 20px;
+    color: rgb(134, 130, 85);
+}
+span{
+    color: rgba(255, 195, 45, 0.749);
+}
+
+  a:hover{
+      color: red;
+  }
+.u{
+text-decoration: none;
+color: #f1f1f1;
+
+}
+
+  
+
+  .previos:hover{
+    border: 5px solid #fabd02;
+    color: #fabd02;
+    background-color: white;
+    transition: 0.5s;
+    
+  }
+  .button{
+    background: #e66d27;
+    color: antiquewhite;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .5s;
+}
+.button:hover{
+    background: transparent;
+    border: 2px solid #f96800;
+  
+}
+.buttonr{
+    background: #da2b42;
+    color: antiquewhite;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .5s;
+   margin: 0 380px;
+}
+.buttonr:hover{
+    background: transparent;
+    border: 2px solid #932c2c;
+  
+}
+.buttonh{
+    background: #4048bd;
+    color: antiquewhite;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .5s;
+   margin: 0 380px;
+}
+.buttonh:hover{
+    background: transparent;
+    border: 2px solid #2c5993;
+    
+  
+}
+.border{
+    border: #e66d27 2px dotted;
+}

@@ -1,0 +1,257 @@
+#htls
+  {
+    background: #F0F2F0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000C40, #F0F2F0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000C40, #F0F2F0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  }
+.hotels
+{
+    background-image: url(https://images.app.goo.gl/qRi4rKnGmEcKJLuA6) ;
+   
+   background-size: contain;
+   background-attachment: fixed;
+   background-repeat:round;
+    
+  }
+  .border
+  {
+    margin: 5px 10px;
+    padding: 10px 50px 20px;
+    letter-spacing: 1px;
+    border: 5px solid #1f388a;
+    color: #000;
+  
+    border-radius: 50% 20% / 10% 40%;
+    background: #544a7d;  /* fallback for old browsers */
+    background: #3E5151;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    text-decoration: none;}
+
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+  header{
+
+    background-image:linear-gradient(rgba(0,0,0,0,.7), rgba(0,0,0,0,.5 ), url('image.png');
+    height:100vh;
+    background-image: cover;
+    background-size:100;
+    position: top;
+  }
+
+
+
+
+
+
+
+@font-face {
+  font-family: Updock;
+  src: url(../Fonts/Updock-Regular.ttf);
+}
+
+@font-face {
+  font-family: BeauRivage;
+  src: url(../Fonts/BeauRivage-Regular.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/WhatsApp\ Image\ 2022-04-20\ at\ 7.22.02\ PM.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  text-transform: capitalize;
+
+
+}
+.one {
+  font-family: Updock;
+  font-size: 58px;
+  text-align: center;
+  padding-top: 5%;
+  color: #fabd02;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.two {
+  font-family: BeauRivage;
+  font-size: 32px;
+  text-align: center;
+  padding-top: 15%;
+  color: #fabd02;
+  font-weight: 700;
+  letter-spacing: 2px;
+
+}
+span {
+  color: white;
+}
+
+.main {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.action {
+  margin-top: 30px;
+  display: flex;
+}
+
+.active {
+  margin: 5px 10px;
+  padding: 13px 35px;
+  letter-spacing: 1px;
+  border: 2px solid #fabd02;
+  color: #000;
+  border-radius: 30px;
+  background-color: #fabd02;
+  text-decoration: none;
+
+}
+
+.active:hover {
+  border: 2px solid #fabd02;
+  color: #fabd02;
+  background-color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+@media screen and (max-width:803px) {
+  .action {
+      flex-wrap: wrap;
+
+  }
+}
+
+@media screen and (max-width:700px) and (max-height:915px) {
+  .main {
+      top: 50%;
+  }
+
+}      
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.containet{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(WALL.JPG);
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+}
+.navber{
+  height: 7%;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  width: 50px;
+  cursor: pointer;
+}
+.menu-icon{
+  width: 30px;
+  cursor: pointer;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul li{
+  list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.459);
+    font-size: 13px;
+  }
+  .row{
+      display: flex;
+      height: 88%;
+      align-items: center;
+  }
+  .col{
+      flex-basis: 50%;
+  }
+  h1{
+      color: rgba(158, 232, 250, 0.438);
+      font-size: 110px;
+  }
+  p{
+    color: rgba(158, 209, 250, 0.438);
+    font-size: 12px;
+    line-height: 20px;
+}
+.card{
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 14px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.6s;
+}
+.card1{
+  background-image: url(../HTML/Sharm Home.html);
+}
+.card2{
+  background-image: url(../Images/rest.hom.jpg);
+}
+.card3{
+  background-image: url(../Images/hot.hom.jpg);
+}
+
+.card:hover{
+  transform: translateY(-10px);
+}
+h5{
+    color: rgba(255, 255, 255, 0.308);
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+.slideshow{
+  width: 50%;
+  height: 300px;
+  margin: 10px auto;
+  border: 15px solid white;
+  border-radius: 30px;
+}
+.swr1{
+  width: 100%;
+  height: 300px;
+  border-radius: 30px;
+
+}

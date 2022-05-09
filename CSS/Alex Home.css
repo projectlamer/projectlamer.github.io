@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.containet{
+    width: 100%;
+    height: 120vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,1.2)),url(https://www.tripsinegypt.com/wp-content/uploads/2019/09/6-Days-Cairo-and-Alexandria-Itinerary-Trips-in-Egypt-2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+} 
+.navber{
+    height: 7%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 10px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+}
+.row{
+    display: flex;
+    height: 95%;
+    align-items: center;
+   
+}
+.col{
+    flex-basis: 50%;
+  
+    
+}
+h1{
+    color: rgb(204, 174, 130);
+    font-size: 110px;
+}
+p{
+    color: rgb(250, 213, 158);
+    font-size: 12px;
+    line-height: 20px;
+}
+.card{
+    width: 190px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 14px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.6s;
+}
+.card1{
+    background-image: url(https://www.planetware.com/photos-large/EGY/egypt-alexandria-fort-qaitbey.jpg);
+}
+.card2{
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-m/1280/18/f4/82/b5/greek-paella.jpg);
+}
+.card3{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1e/b6/6e/9f/exterior.jpg?w=1100&h=-1&s=1);
+}
+.card4{
+    background-image: url(https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/90/c1/e9.jpg);
+}
+.card:hover{
+    transform: translateY(-10px); 
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+
+span
+{
+    color: rgb(21, 101, 148);
+}
+.kalam:hover
+{
+    background: #659999;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+border-radius: 2cm;
+    transition: 0.75s;
+    width: 700px;
+    border-width: 700px;
+}
+.kalam
+{
+padding: 0.50cm;
+}

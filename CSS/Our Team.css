@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background:linear-gradient(180deg, #ff5601,#f7984b) fixed;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+#pos{
+  position: absolute;
+  top: 15px;
+}
+
+.container {
+  margin: 20px 40px;
+  color: white;
+}
+
+.heading1 {
+  font-size: 60px;
+  color: white;
+  margin-top: 50px;
+}
+
+.heading1 span {
+  font-style: italic;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.profiles {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 80px;
+}
+
+.profile {
+  flex-basis: 260px;
+}
+
+.profile .profile-img {
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: 400ms;
+  transition: transform 0.5s;
+}
+
+.profile:hover .profile-img {
+  filter: grayscale(0);
+  transform: scaleY(1.05);
+}
+
+.user-name {
+  margin-top: 30px;
+  font-size: 35px;
+}
+
+.profile h5 {
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  color: #ccc;
+}
+
+.profile p {
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 1150px) {
+  .profiles {
+    flex-direction: column;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile p {
+    text-align: center;
+    margin: 20px 60px 80px 60px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .heading1 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+  }
+
+  .heading1 span {
+    font-size: 15px;
+  }
+
+  .profiles {
+    margin: 20px 0;
+  }
+
+  .profile p {
+    margin: 20px 10px 80px 10px;
+  }
+}
+.ro1{
+
+  flex-flow: column nowrap;
+
+}
+.ro2{
+
+  flex-flow: column nowrap;
+
+}
+
+
+.fon{
+  font-family: "Poppins", sans-serif;
+}
+
+#fon{
+  font-family: 'Tangerine', serif;
+  font-size: 84px;
+  text-shadow: 2px 4px 4px rgb(252, 102, 56);
+}
+
+   #moto{
+      text-align: justify;
+      color: white;
+      font-size: 260%;
+      text-shadow: 0px 3px 7px rgb(255, 255, 255);
+   }
+   
+   .p{
+       font-size: 150%;
+       text-align: center;
+       color: white;
+   
+      }
+    
+  #p1{
+      border:0;
+      padding: 4cm;
+      margin-top: 0;
+      text-align: center;
+      color: white;
+      font-size: larger;
+      font-size: 150%;
+      line-height: 1cm;
+  }
+
+
+  ::-webkit-scrollbar
+  {
+      display: none;
+  }
+  .containerlogo{
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    }
+    h1{
+    color: rgb(255, 255, 255);
+    
+  font-size: 70px;
+    } 

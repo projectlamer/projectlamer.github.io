@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+}
+
+
+body {
+
+    padding: 20px;
+    background-color: #480d0d;
+
+
+}
+
+
+.span {
+    float: right;
+    font-size: 24px;
+    color: maroon;
+
+}
+
+
+.Book {
+    position: relative;
+    font-size: 24px;
+    left: 40%;
+    padding: 10px;
+    border: 2px solid maroon;
+    color: white;
+    border-radius: 30px;
+    background-color: maroon;
+    text-decoration: none;
+
+}
+
+.Book:hover {
+    border: 2px solid maroon;
+    color: maroon;
+    background-color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.leftcolumn {
+    float: left;
+    width: 47%;
+}
+
+.rightcolumn {
+    float: left;
+    width: 47%;
+    padding-left: 30px;
+}
+
+.text {
+    padding-top: 5px;
+}
+
+.card {
+    background-color: #fabd02;
+    padding: 20px;
+    margin: 20px 10px;
+    text-align: justify;
+    box-shadow: 6px 6px 5px rgb(177, 100, 100);
+    border-radius: 32px 0 0;
+    color: rgb(113, 7, 48);
+
+}
+
+
+.swr {
+    border-radius: 16px;
+    height: 180px;
+    width: 250px;
+
+}
+
+.swr:hover {
+    transform: rotate(10deg);
+}
+
+.swr1 {
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.slideShow {
+    width: 50%;
+    height: 300px;
+    margin: 10px auto;
+    border: 15px solid white;
+    border-radius: 30px;
+}
+
+@media screen and (max-width:1290px) {
+    .Book {
+        float: right;
+        left: 0%;
+    }
+}
+
+@media screen and (max-width:1140px) {
+
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+
+    }
+
+    img {
+        height: 170px;
+    }
+
+}

@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+ .restname
+ {
+     font-weight: 500;
+     text-align: left;
+     font-size: 5ch;
+     margin-left: 2cm;
+     font-family: cursive;
+color:rgb(194, 191, 191);
+;
+ }
+ .para
+ {
+   width: 60%;
+   margin-left: 15cm;
+   position: relative;
+
+    background-color:rgb(180, 156, 94);
+    font-size: 2.6ch;
+  box-sizing: border-box;
+padding: 1cm;
+line-height: 25px;
+}
+
+ 
+.mero
+{
+ 
+margin: 3cm;
+}
+ 
+.goha
+{
+    margin-bottom: 4cm;
+    margin-top: 2cm;
+}
+
+
+.more{
+
+    font-size: 5.5ch; color: rgb(175, 175, 175);
+     margin-left: 15cm;
+      padding: 10px 50px 20px;
+      letter-spacing: 1px;
+    justify-content: center;
+      color: rgb(209, 197, 197);
+      width: 300px;
+     
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: 300;
+     font-family: sans-serif;
+      text-decoration: none;
+      transition: 0.75s ease;
+    
+    }
+    .more:hover
+    {
+
+      border: 2px solid ;
+      color: #000000;
+      background: #616161;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to bottom, #9bc5c3, #616161);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to bottom, #9bc5c3, #616161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        border-radius: 10% 30% 50% 70%;
+     padding: 1cm;
+
+      transition: 0.5s;
+      cursor: pointer;
+     font-family:Arial, Helvetica, sans-serif
+    }
+ 
+    .major
+{
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-left: 3cm;
+margin-bottom: 01ch;
+}
+
+
+
+.header {
+ 
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 2.2), rgba(0, 0, 0, 0.5)), url(https://images.memphistours.com/large/6d356b16213c0d7c73146de722492d6b.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-transform: capitalize;
+
+
+}
+.styleshow
+{
+
+  display: block;
+  margin: 70px ;
+  margin-top: -15ch;
+  width: 700px;
+  height: 400px; ;
+
+
+
+}
+.were
+{
+  margin: 7px 10px;
+  padding: 13px 35px;
+  letter-spacing: 1px;
+  
+ 
+  color: #000;
+  border-radius: 10% 30% 50% 70%;
+  background: #616161;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #9bc5c3, #616161);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #9bc5c3, #616161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ text-decoration: none;
+}
+.whereto
+{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+}

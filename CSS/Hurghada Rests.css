@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+
+}
+
+
+body {
+
+    padding: 20px;
+    background-color: maroon;
+
+
+}
+
+.leftcolumn {
+    float: left;
+    width: 30%;
+
+}
+
+.text {
+    padding-top: 5px;
+}
+
+.center {
+    float: left;
+    width: 30%;
+    padding-left: 30px;
+}
+
+.rightcolumn {
+    float: left;
+    width: 30%;
+    padding-left: 30px;
+}
+
+
+
+.card {
+    background-color: #fabd02;
+    padding: 20px;
+    margin: 20px 10px;
+    text-align: justify;
+    box-shadow: 6px 6px 5px rgb(177, 100, 100);
+    border-radius: 32px 0 0;
+    color: rgb(113, 7, 48);
+
+}
+
+.swr {
+    border-radius: 16px;
+
+}
+
+.swr:hover {
+    transform: rotate(10deg);
+}
+
+.slideShow {
+    width: 50%;
+    height: 300px;
+    margin: 10px auto;
+    border: 15px solid white;
+    border-radius: 30px;
+}
+
+.swr1 {
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+}
+
+@media screen and (max-width:1150px) {
+
+    .leftcolumn,
+    .center,
+    .rightcolumn {
+        width: 50%;
+        padding: 0;
+    }
+
+    img {
+        height: 215px;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    .leftcolumn,
+    .center,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+
+    }
+
+    img {
+        height: 170px;
+    }
+
+}

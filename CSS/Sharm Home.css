@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.containet{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(WALL.JPG);
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+}
+.navber{
+  height: 7%;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  width: 50px;
+  cursor: pointer;
+}
+.menu-icon{
+  width: 30px;
+  cursor: pointer;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+}
+.row{
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+.col{
+  flex-basis: 50%;
+}
+h1{
+  color: rgb(250, 213, 158);
+  font-size: 110px;
+}
+p{
+  color: rgb(250, 213, 158);
+  font-size: 12px;
+  line-height: 20px;
+}
+.card{
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 14px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.6s;
+}
+.card1{
+  background-image: url(../Images/sharm.hom.jpg);
+}
+.card2{
+  background-image: url(../Images/rest.hom.jpg);
+}
+.card3{
+  background-image: url(../Images/hot.hom.jpg);
+}
+
+
+.card:hover{
+  transform: translateY(-10px); 
+}
+h5{
+  color: #fff;
+  text-shadow: 0 0 5px #999;
+}
+.card p{
+  text-shadow: 0 0 15px #000;
+  font-size: 8px;
+}
