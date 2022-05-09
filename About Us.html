@@ -1,0 +1,146 @@
+<html>
+    <head lang="en">
+        <meta http-equiv="content-language" content="en">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="website, blog, travel, Lamer">
+        <meta name="author" content="Lamer">
+        <meta name="publisher" content="Lamer">
+        <meta name="copyright" content="Lamer">
+        <meta name="page-topic" content="travel">
+        <meta name="page-type" content="travel and hotels">
+        <meta name="audience" content="Everyone">
+        <meta name="robots" content="index, follow">
+        <link rel="stylesheet" href="../CSS/About Us.css">
+        <title>About Us - Lamer</title>
+      </head>
+<body>
+    <header>
+        <div class="ubar">
+            <div id="menu-bar"></div>
+           <a href="#" class="logo"><div class="containerlogo">
+            <h1><span class="auto-type">Lamer</span> </h1>
+            </div></a>
+            <nav class="navbar">
+              <a id="a1" href="index.html">Home</a>
+              <a id="a2" href="">Map</a>
+              <a id="a3" href="Travel Dists.html">Travel Distinations</a>
+              <a id="a4" href="#">About Us</a>
+          </nav>
+        </div>
+    </header>
+    <div class="slideshow-container" style="
+    right: 590.650;
+    left: 290.362;
+">
+
+        <div class="mySlides fade" style="display: none;">
+          
+          <img src="../Images/des-3.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
+        
+        <div class="mySlides fade" style="display: block;">
+          
+          <img src="../Images/gallery-img-4.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
+        
+        <div class="mySlides fade" style="display: none;">
+          
+          <img src="../Images/Luxor.jpeg" style="width:100%">
+          <div class="text"></div>
+        </div>
+        
+        
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        <br>
+  <div class="abo">
+      <div class="incon">
+          <h1 style="text-align:left;">About Us</h1>
+          <p class="text">
+              <pre style="text-align:left;">       
+                    NOT JUST CODING,
+                                          BUT EXPERIENCE.
+                                        </pre>
+           <br>
+
+            Our main goal is to provide people
+        with all the necessary information,
+        to make their experience with lamer
+        a unique and memorable journey.
+       <br>
+        In order for this project 
+        to be one of a kind
+        we made great efforts 
+        to portray our vision! <br>
+        <br>
+        All you need to do is Surf 
+        through out content and
+        we'll accompany you
+        on a journey to discover
+        the hidden gems of our country.<br>
+        We guarantee that this
+        will be a unique and
+        Unforgettable experience 
+        for all of us!<br>
+          </p>
+<br>
+<br>
+<div class="po">
+    <a href="Our Team.html" class="button">See More</a>
+</div>
+
+<br>
+<br>
+          <div class="skills">
+              <span>GUIDE</span>
+              <span><pre>              COMFORT</pre></span>
+              <span><pre>     ADVENTURE</pre></span>
+          </div>
+      </div>
+  </div>
+
+  <script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every x seconds
+    }
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+  
+  var typed = new Typed(".auto-type",{
+  strings : ["LAMER", "LAMER", "DISCOVER THE WORLD"],
+  typespeed :5000,
+  backspeed: 5000,
+  loop : true
+})
+</script>  
+</body>
+</html>
